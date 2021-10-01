@@ -1,7 +1,7 @@
-import react from "react";
+import React from 'react';
 
 export const CardList = (props) => {
     return (
-        <div>{props}</div>
+        <div>{props.name}</div>
     )
 }
